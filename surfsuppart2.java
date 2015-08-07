@@ -1,0 +1,18 @@
+/** 
+*Tells the user if the the waves are higher enough for surfing  
+* Muhammad Baqir
+* Mar/4/13
+*/ 
+import java.util.Scanner;
+public class surfsuppart2
+{      public static void main ( String[] args ){
+  int height;
+  Scanner scan = new Scanner( System.in );
+  height = scan.nextInt();
+  if (height >= 6){
+  System.out.println( "Great day for surfing!");
+    }
+else{                   
+    System.out.println("Go body boarding!");
+}
+}}

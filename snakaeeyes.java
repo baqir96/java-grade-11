@@ -1,0 +1,26 @@
+/** 
+* Snake eyes prediction thats rolls two dice and predictes the outcome
+* Muhammad Baqir
+* Apr/19/13
+*/ 
+import java.util.Scanner;
+public class snakaeeyes {
+public static void main (String [] args){
+  Scanner scan = new Scanner( System.in );
+  System.out.println("Start rolling...");
+  int random, random2, count;
+  count = 0;
+  do {
+  count = count + 1;
+  random = (int) (6* Math.random() + 1);
+  random2 = (int) (6* Math.random() + 1); 
+  System.out.println("You rolled: " + random + " and " + random2); 
+  }
+  while ( ! (random == 1 && random2 == 1 ) );
+  System.out.print("Snake Eyes!!! You rolled " + count + " times to get a snake eyes  "  );
+    
+}
+}
+
+
+  

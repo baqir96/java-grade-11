@@ -1,0 +1,25 @@
+/** 
+*Puts the numbers in order
+* Muhammad Baqir
+* Apr/4/13
+*/ 
+import java.util.Scanner;
+public class OrderIntergers
+{ public static void main ( String[] args ){
+  double x = Math.random(); 
+  double y = Math.random();
+  double z = Math.random();
+  System.out.println("x= "+x);
+  System.out.println("y= "+y);
+  System.out.println("z= "+z);
+  if   (x<=y && y<=z) 
+  System.out.println ("x=" + x + " < " + "y=" + y + "   < " + "z=" + z);
+  else if ( y<=z && z<=x)
+  System.out.println ("y= " + y + " < " + "z= " + z + " < " + "x= " + x);
+  else 
+  System.out.println ("z= " + z + " < " + "x=" + x + "  < " + "y= " + y);
+ 
+  }
+  }
+
+

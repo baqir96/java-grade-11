@@ -1,0 +1,19 @@
+/** 
+*Displays a random number between a min and a max number  
+* Muhammad Baqir
+* Mar/4/13
+*/ 
+import java.util.Scanner;
+public class Randomnum
+{ public static void main ( String[] args ){
+  int minum, maxnum;
+  Scanner scan = new Scanner( System.in );
+  System.out.print("Enter a min value: ");
+  min = scan.nextInt();
+  System.out.print("Enter a max value: ");
+  max = scan.nextInt();
+  System.out.println ("The number between " + min + " and " + max " is: " (maxnum-minnum + 1)*Math.random()+minum); 
+
+         
+}
+}

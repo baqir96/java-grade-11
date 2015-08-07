@@ -1,0 +1,34 @@
+/** 
+*test 2 program 
+* Muhammad Baqir
+* Apr/6/13
+*/ 
+import java.util.Scanner;
+public class Test 
+  Int seat
+  Scanner scan = new Scanner (system.in);
+  System.out.println ("Enter your seat number: ");
+  seat =  scan.Int
+   if ( seat >= 100 $$ seat <= 159){
+  System.out.println( "Your section is A and the ticket price is $150");
+  } else if ( seat <= 199){
+  System.out.println( "Your section is B and the ticket price is $125");
+  } else if ( seat <= 259){
+  System.out.println( "Your section is C and the ticket price is $100");
+  } else if ( seat <= 299){
+  System.out.println( "Your section is D and the ticket price is $90");
+  } else if ( seat <= 325){
+  System.out.println( "Your section is E and the ticket price is $75");
+  } else if ( seat <= 349){
+  System.out.println( "Your section is F and the ticket price is $60");
+  } else if ( seat <= 399){
+  System.out.println( "Your section is G and the ticket price is $50");
+  } else if ( seat <= 459){
+  System.out.println( "Your section is H and the ticket price is $40");
+  } else if ( seat <= 499){
+  System.out.println( "Your section is I and the ticket price is $25");
+  } else {
+  System.out.println ("Not a seat number!");
+  }}
+}
+    

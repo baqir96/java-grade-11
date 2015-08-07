@@ -1,0 +1,13 @@
+/** 
+*  
+* Muhammad Baqir
+* Mar/4/13
+*/ 
+import java.util.Scanner;
+public class WeightOnADifferentPlanet
+{ public static void main ( String[] args ){
+  int w0eight;
+  string planet;
+  Scanner scan = new Scanner( System.in );
+  System.out.println("Enter your weight");
+  weight = scan.nextLine();

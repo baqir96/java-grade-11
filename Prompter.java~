@@ -1,0 +1,27 @@
+/** 
+* prompter
+* Muhammad Baqir
+* Apr/17/13
+*/ 
+import java.util.Scanner;
+public class Prompter {
+public static void main (String [] args){
+   Scanner scan = new Scanner( System.in );
+   int numbermax, numbermin, numbermiddle;
+   System.out.println("Enter a max value: ");
+   numbermax = scan.nextInt();
+   System.out.println("Enter a min value: ");
+   numbermin = scan.nextInt();
+   System.out.println("Enter a number that is between these two numbers: ");
+   numbermiddle = scan.nextInt();
+   int guess = numbermin;
+   
+   System.out.println(guess);
+   while 9guess != middle)
+{
+  guess++;
+  System.out.println(guess);
+}
+}
+}
+   

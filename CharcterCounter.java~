@@ -1,0 +1,15 @@
+/** 
+* Calculates the vowels in a sentence
+* Muhammad Baqir
+* Apr/25/13
+*/ 
+import java.util.Scanner;
+public class CharcterCounter {
+public static void main (String [] args){
+  Scanner scan = new Scanner( System.in );
+  String sentence, answer;
+  System.out.print("Enter some text: ");
+  sentence = scan.nextLine();
+  int lenght = sentence.length();
+  for ( char.At(1); char.At >= lenght
+  

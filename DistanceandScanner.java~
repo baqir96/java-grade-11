@@ -1,0 +1,32 @@
+/** 
+*Displays the totle distance but asks the user before for distances
+* Muhammad Baqir
+* Feb/25/13
+*/ 
+
+import java.util.Scanner;
+public class DistanceandScanner
+{             public static void main ( String[] args ){               
+      double distance;
+      String fristpart;
+      Scanner scan = new Scanner( System.in );
+      System.out.println("Enter the distance of the frist part of the race:");
+      fristpart = scan.nextLine();
+      String secondpart;
+      System.out.println("Enter the distance of the second part of the race:");
+      secondpart = scan.nextLine();
+      String thirdpart;
+      System.out.println("Enter the distance of the third part of the race:");
+      thirdpart = scan.nextLine();
+      distance= fristpart+secondpart+thirdpart; 
+      System.out.println("Total distance of race: "+ distance);                   
+    }     
+}   
+
+
+
+
+    
+  
+      
+  

@@ -1,0 +1,21 @@
+/** 
+*Displays the midlle letter
+* Muhammad Baqir
+* Feb/28/13
+*/
+public class Capitalize
+{             public static void main ( String[] args ){    
+  String str1;      
+  str1="word";
+  String str2;
+  str2=w;
+  String fristletter=str1.substring (0,1);
+  System.out.println("frist letter is " + fristletter);
+  System.out.println(str2.toUpperCase());
+  
+  
+  
+  
+  
+}
+}

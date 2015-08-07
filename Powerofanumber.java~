@@ -1,0 +1,22 @@
+/** 
+* Calculates the power of a number
+* Muhammad Baqir
+* Apr/19/13
+*/ 
+import java.util.Scanner;
+public class Powerofanumber {
+public static void main (String [] args){
+  Scanner scan = new Scanner( System.in );
+  int n;
+  int x;
+  if ( n <= 0)
+  {
+    System.out.print("Enter a postive number");
+  }
+  for ( n = 0;     n >=0;  System.out.print("Enter N: ") n = scan.nextInt())
+       {
+  System.out.print("Enter X: ");
+  x = scan.nextInt();
+  }
+  System.out.print("Enter X: ");
+}}

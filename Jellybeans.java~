@@ -1,0 +1,30 @@
+/** 
+* Calculates the jelly beans 
+* Muhammad Baqir
+* Apr/26/13
+*/ 
+import java.util.Scanner;
+public class Jellybeans {
+public static void main (String [] args){
+  Scanner scan = new Scanner( System.in );
+  int equation, equation2;
+  int jellybean = 231;
+  int day = 1;
+  while ( jellybean > 0 ) 
+  {
+   System.out.println("Day " + day + " " + jellybean);
+    day = day + 1;
+    equation = day/3;
+    equation2 = day/5;
+    if (equation%3 == 0) {
+      jellybean = jellybean - 3; 
+    }
+    else if (equation%5 == 0) {
+       jellybean = jellybean + 8;
+    }
+    else {
+            }
+}
+}}
+      
+    

@@ -1,0 +1,28 @@
+/** 
+* Calculates the shipping cost 
+* Muhammad Baqir
+* Apr/19/13
+*/ 
+import java.util.Scanner;
+public class ShippingCostCalculating {
+public static void main (String [] args){
+  Scanner scan = new Scanner( System.in );
+  int weight, equation;
+  double equation2
+  do {
+  System.out.print("Enter the weight: ");
+  weight = scan.nextInt()
+  if (weight <= 10){
+  equation = 3;
+  System.out.println("Weight of Order: " + weight);
+  System.out.println("Shipping: " + equation); 
+  }
+  else{                   
+  equation2 = 3 + ((weight - 10)*0.25);
+  System.out.println("Weight of Order: " + weight);
+  System.out.println("Shipping: " + equation2);
+}
+  } while ( weight != 0);
+  System.out.println ("bye");
+  }
+}

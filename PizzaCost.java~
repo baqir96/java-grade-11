@@ -1,0 +1,16 @@
+/** 
+*Displays the pizza's cost depending on the diameter of the pizza in inches
+* Muhammad Baqir
+* Mar/19/13
+*/ 
+import java.text.NumberFormat;
+ public class PizzaCost {
+ public static void main (String [] args){
+ double labour cost = 0.75;
+ int rent cost = 1;
+ double materials;
+ Scanner scan = new Scanner( System.in );
+ System.out.println("Enter the pizza size in inches:");
+ materials = scan.nextInt();
+ 
+ 

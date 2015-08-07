@@ -1,0 +1,21 @@
+/** 
+*Displays the total cost of the order based on entered values 
+* Muhammad Baqir
+* Mar/19/13
+*/ 
+import java.util.Scanner;
+public class Digits2 {
+public static void main (String [] args){
+  int num, onedigit, seconddigit, thirddigit;
+  Scanner scan = new Scanner( System.in );
+  System.out.println("Enter three digit number: ");
+  num = scan.nextInt();
+  onedigit=(num%10);
+  seconddigit=(num/10)%10;
+  thirddigit(num/10);
+  System.out.println("The first digit is " + onedigit);
+  System.out.println("The second digit is " + seconddigit);
+  System.out.println("The third digit is " + equation);
+        
+}}
+  

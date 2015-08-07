@@ -1,0 +1,13 @@
+/** 
+*Calculates the circle's area by the given radius value from the user 
+* Muhammad Baqir
+* Mar/4/13
+*/ 
+
+import java.util.Scanner;
+public class Lastchancegas
+{   public static void main ( String[] args ){
+  int = tankcapacity, gagereading, mpg;
+  Scanner scan = new Scanner( System.in );
+  System.out.print("what is the  ");
+  height = scan.nextInt();

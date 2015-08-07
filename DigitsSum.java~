@@ -1,0 +1,16 @@
+/** 
+* Create a DigitsSum application that prompts the user for a non-negative integer and 
+displays the sum of the digits. 
+* Muhammad Baqir
+* Apr/22/13
+*/ 
+import java.util.Scanner;
+public class DigitsSum {
+public static void main (String [] args){
+Scanner scan = new Scanner( System.in );
+int value;
+System.out.print("Enter a postive integer: ");
+   value = scan.nextInt();
+   int value = interger.parseInt;
+}
+}

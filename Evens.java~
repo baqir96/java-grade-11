@@ -1,0 +1,28 @@
+/** 
+*Displays the even numbers between 1 and number entered by user 
+* Muhammad Baqir
+* Apr/17/13
+*/ 
+import java.util.Scanner;
+public class Evens {
+public static void main (String [] args){
+   Scanner scan = new Scanner( System.in );
+   int number , equation;
+   Scanner scan = new Scanner( System.in );
+   System.out.println("Enter a postive interger: ");
+   number = scan.nextInt();
+   while ( number >= 100)
+   {
+   equation = number%2;
+   if (eqaution == 0){
+  System.out.println(" The even numbers between 1 and 100 are: " );
+    
+   }
+else{                   
+    System.out.println("It is a odd number please enter a odd number");
+   System.out.println ();
+   number = (number +100);
+   }
+   System.out.println( "Done with the loop" );
+   }
+}

@@ -1,0 +1,10 @@
+/** 
+* adds all the numbers within a range and outside the range
+* Muhammad Baqir
+* Apr/19/13
+*/ 
+import java.util.Scanner;
+public class addingnum {
+public static void main (String [] args){
+  Scanner scan = new Scanner( System.in );
+  

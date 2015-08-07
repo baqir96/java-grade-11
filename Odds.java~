@@ -1,0 +1,10 @@
+/** 
+* Displays all the odd numbers 
+* Muhammad Baqir
+* Apr/17/13
+*/ 
+import java.util.Scanner;
+public class Odds {
+public static void main (String [] args){
+   Scanner scan = new Scanner( System.in );
+   

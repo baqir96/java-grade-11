@@ -1,0 +1,16 @@
+/** 
+*Converts km to miles 
+* Muhammad Baqir
+* Mar/4/13
+*/ 
+class KmtoMiles  {    
+  public static void main ( String[] args )    { 
+    double Km;
+      Scanner scan = new Scanner( System.in );
+      System.out.println("Enter the Km:");
+      Km = scan.nextDouble();
+      
+      
+      
+      
+  }}

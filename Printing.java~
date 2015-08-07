@@ -1,0 +1,15 @@
+/** 
+*
+* Muhammad Baqir
+* Apr/4/13
+*/ 
+import java.util.Scanner;
+public class Printing 
+{ public static void main ( String[] args ){
+  int copies;
+  Scanner scan = new Scanner( System.in );
+  System.out.println("Enter the number of copies: ");
+  copies = scan.nextInt();
+  
+  
+}}

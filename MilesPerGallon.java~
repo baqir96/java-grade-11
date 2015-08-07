@@ -1,0 +1,40 @@
+/* Dylan Lobo
+ * April 16h 2013
+ * Miles Per Gallon
+ * This program calculates miles per gallon for several cars. It consists of initial odometer reading
+ * Final odometer reading, and number of gallons of gas
+ * The program ends when a negative initial odometer reading is entered
+**/
+ 
+
+import java.util. Scanner;
+class MilesPerGallon
+{
+  public static void main (String[] args )
+  {
+    Scanner scan = new Scanner (System.in);
+    
+    int gallon=0;
+    int fin=0;
+    int init=0;
+    int mpg=0;
+
+    
+    while (init >1){
+      System.out.println(" Initial mile: ");
+      init = scan.nextInt();
+      
+      System.out.println(" Final mile: ");
+      fin = scan.nextInt();
+      
+      System.out.println(" Gallons: ");
+      gallon = scan.nextInt();
+      
+      System.out.println(" Miles per Gallon: ");
+      mpg = scan.nextInt();
+      
+  
+     }
+    System.out.println(" Bye. ");
+  }
+}

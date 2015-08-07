@@ -1,0 +1,27 @@
+/** 
+*Asks for the fighters name and weight and places them into a class
+* Muhammad Baqir
+* Apr/4/13
+*/ 
+import java.util.Scanner;
+public class UFC
+{ public static void main ( String[] args ){
+  int weight;
+  String name;
+  Scanner scan = new Scanner( System.in );
+  System.out.print("Enter the fighter's name: ");
+  name = scan.nextString();
+  System.out.print("Enter the Fighter's weight in lbs: ");
+  weight = scan.nextInt();
+  if ( 145 =< weight < 155){
+        System.out.println ( name + " can fight in the lightwight category);
+  } else if ( 155 <= weight < 170){
+      System.out.println ( name + "can fight in the welterweight category");
+  } else if (age <= 10){
+       System.out.println ( name + "can fight in the middleweight category");
+  } else if (age <= 12){
+       System.out.println ( name + "can fight in the light heavyweight category");
+  } else {
+       System.out.println ( name + "can fight in the light heavyweight category");
+  }
+  }}
